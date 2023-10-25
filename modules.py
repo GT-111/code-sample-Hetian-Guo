@@ -52,6 +52,7 @@ class HypergraphConstruction(nn.Module):
         return agent_features, polyline_features, H_matrices
 
 class TATLMPLayer(nn.Module):
+    
     """Type-Aware Two-Level Message Passing (TATLMP) module as proposed in our paper"""
 
     def __init__(self, scale, config):
